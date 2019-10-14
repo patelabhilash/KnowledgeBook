@@ -10,5 +10,5 @@ https://stackoverflow.com/questions/44172261/how-spring-boot-application-works-i
 MANAGE AND RELOAD SPRING APPLICATION PROPERTIES ON THE FLY
 
 using <artifactId>spring-boot-starter-actuator</artifactId>
-@RefreshScope annotation along with @Value
+@RefreshScope annotation(in class level) along with @Value
 
