@@ -1,4 +1,4 @@
-###Route in angular 6
+### Route in angular 6
 // onSameUrlNavigation: 'reload'
 
 pages are component in angular
@@ -7,7 +7,7 @@ router-outlet
 Routes and paths
 Navigation
 
-#####points:
+##### points:
 router-outlets, path matching stratergies, route parameter, route guard
 
 Q. difference between Routes and paths?
