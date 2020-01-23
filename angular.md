@@ -39,3 +39,14 @@ params : Observable<Params> : An observable of the matrix parameters scoped to t
 queryParams : Observable<Params> : An observable of the query parameters shared by all the routes.
 
 outlet: string : The outlet name of the route, a constant.
+
+### angular change detection
+
+https://indepth.dev/a-gentle-introduction-into-change-detection-in-angular/
+dirty checking : By default, Angular makes no assumption on what the component depends upon.
+So it has to be conservative and will checks every time something may have changed.
+ChangeDetectionStrategy.Default : 
+It will perform checks for each browser events, timers, XHRs and promises.
+ChangeDetectionStrategy.onPush
+components internally are represented as views
+Change Detection : updates new value to binding, then to oldValues array
