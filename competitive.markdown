@@ -11,3 +11,10 @@ convert no of ele to count
 - if counts to skip, how many, from where, to where
 
 - never try to optimize result from method of induction unless completed.
+- for a and b, reordering : if one is max(a,b) then other is min(a,b).
+- iterating in relfection : (without mid value) 
+  [start + i] = ; i ranges (0 to length) 
+  [end -i] = 
+  length --; as we are doing two operations.
+- iterating in reflection : (with midvalue) 
+  [mid + i] = (val - i) ; i ranges (mid - start  to end - start) 
