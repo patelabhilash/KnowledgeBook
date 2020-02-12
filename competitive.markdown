@@ -18,3 +18,21 @@ convert no of ele to count
   length --; as we are doing two operations.
 - iterating in reflection : (with midvalue) 
   [mid + i] = (val - i) ; i ranges (mid - start  to end - start) 
+  
+- in while/for loop if skipping interation i using while loop , put same condition of outer loop in inner loop.
+  check if any more condition to be put.
+  e.g.
+  <pre><code>
+  while (i&lt=j) {
+        while(i&ltj &amp&amp !isAlphanumeric(A.charAt(i))){
+            i++;
+        }
+        while (i&ltj &amp&amp !isAlphanumeric(A.charAt(j))) {
+            j--;
+        }
+        if(!ischarMatches(A.charAt(i), A.charAt(j))){
+            return 0;
+        }
+        i++;j--;
+    }
+ </code></pre>
