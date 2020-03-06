@@ -80,11 +80,31 @@ interface Drawable{
         };
  d2.draw();  
 ```
+
+
 #### Anonymous Inner Class
 Object created using implementing interface in a class
 
 
-#### Collections
+#### Stream
+Stream API is used to process collections of objects.
+Stream takes input from the Collections, Arrays or I/O channels.
+Streams don’t change the original data structure.
+```
+.stream() // to convert to stream
+```
+**Intermediate** operations can be pipelined. **Terminal** operations mark the end of the stream and return the result.
+
+Intermediate:	map, filter, sorted
+Terminal:	collect, forEach, reduce
+e.g.
+```
+.collect(Collectors.toList());
+```
+
+
+
+## Collections
 https://media.geeksforgeeks.org/wp-content/uploads/java-collection.jpg
 
  collection framework consists of four core interface such as Collection, List, Set, Map, and two specialized interfaces named SortedSet and SortedMap for sorting.
@@ -152,4 +172,5 @@ for (Integer i: integerList) {
 
 #### OOPS
 https://www.scientecheasy.com/2020/02/oops-concepts-in-java.html
+
 
