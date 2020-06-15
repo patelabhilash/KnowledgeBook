@@ -170,6 +170,8 @@ for (Integer i: integerList) {
     }
 ```
 
+**volatile** So, where volatile only synchronizes the value of one variable between the thread memory and the "main" memory, synchronized synchronizes the value of all variables between the thread memory and the "main" memory and locks and releases a monitor to control the ownership between multiple threads.
+
 #### OOPS
 https://www.scientecheasy.com/2020/02/oops-concepts-in-java.html
 
